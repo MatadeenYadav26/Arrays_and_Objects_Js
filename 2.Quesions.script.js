@@ -89,4 +89,5 @@
 // obj.fnc();
 
 // Gives window as an output , normal-function inside an object case.
+
 // isiliye humesha if , kisi object k andar agar function banaoge , make arrow functon , so that aapke this ki value hold rahe naaki , window ho jaye.
