@@ -91,3 +91,94 @@
 // Gives window as an output , normal-function inside an object case.
 
 // isiliye humesha if , kisi object k andar agar function banaoge , make arrow functon , so that aapke this ki value hold rahe naaki , window ho jaye.
+
+
+// Day-2 : 
+
+// 5: Given an array of numbers , use map() to create a new array where each number is squared: 
+
+// let arr = [2,3,4,6,8];
+
+// let newarr = arr.map(function(val){
+//     return val*val;
+
+// })
+
+// console.log(newarr);
+
+// 6: Use filter() to get only even numbers from array 
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let newarr = arr.filter(function(val){
+//     return val%2 === 0;
+// })
+// console.log(newarr);
+
+// 7: Use reduce() to find the total salary from an array of numbers [1000,2000,3000]:
+
+// let array = [1000,2000,3000];
+// let newarray = array.reduce(function(acc,val){
+//     return acc+val;
+// },0);
+// console.log(newarray);
+
+//  8: Create an array of names and use some() and every() to test a codition (eg:    all names longer than 3 characters.)
+
+// let names = ["aman","naman","amay","ammmm","mannnnn"];
+
+// let ans = names.some(function(val){
+//     return val.length > 4;
+// })
+
+// console.log(ans);
+
+// let ans = names.every(function(val){
+//     return val.length > 4;
+// })
+
+// console.log(ans);
+
+// 9: create an object user and test the behaviour of object. freeze()  and Object.seal() by adding/changing keys: 
+
+// let user = {
+//     name : "Aman",
+//     age : 21,
+//     email : "matadeeen@gmail.com",
+// };
+// //  user.age = 25;
+// //  user.social = "Instagram";
+// //  user.age = 22;
+// //  Object.freeze(user);
+// //  console.log(user);
+// //  user.age = 23;
+// //  console.log(user);
+
+// user.age = 25;
+// console.log(user);
+
+// user.age = 22;
+// console.log(user);
+// Object.seal(user);
+// user.name = "Amandeen";
+// user.social = "facebook";
+// user.age = 23;
+// console.log(user);
+
+// 10: create a nested object (user-> address -> city) and access the city name inside it:
+
+// let obj = {
+//     user: {
+//         name : "Aman",
+//             address : {
+//                 city: "Surat",
+//             }
+//     }
+// }
+
+//  To access the citt name : 
+// console.log(obj.user.address.city);
+// OR
+// let {city} = obj.user.address;
+// console.log(city);
+
